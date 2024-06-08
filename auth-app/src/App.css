@@ -1,0 +1,433 @@
+/* Add your existing CSS here */
+
+/* NavBar CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.logout-button:hover {
+  background-color: #ff0000;
+}
+
+/* Form CSS */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-container a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container a:hover {
+  background-color: #0056b3;
+}
+
+.signup-container p {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar-links a {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .form-container,
+  .signup-container {
+    margin: 20px;
+    padding: 15px;
+  }
+}
+
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.welcome-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.control-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.saved-times {
+  margin-top: 20px;
+}
+
+.saved-times h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.saved-times ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-times li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 0; /* Remove horizontal padding */
+  margin: 0; /* Remove margin */
+  width: 100%; /* Make the navbar full width */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Home.css */
+
+.home-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding if needed */
+  box-sizing: border-box; /* Ensure padding is included in width and height */
+}
+.username {
+  font-weight: bold;
+  color: rgba(214, 20, 20, 0.826);
+  
+}
+
+.timer {
+  font-size: 250px; /* Increase font size to 48 pixels */
+  margin-bottom: 200px; /* Add some bottom margin for spacing */
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.controls {
+  display: flex;
+  flex-direction: column; /* Adjust the direction if needed */
+  gap: 10px; /* Add space between buttons */
+}
+
+.controls {
+  display: flex;
+  flex-direction: column; 
+  margin-up: 20px;
+  position:absolute; 
+  
+  right: -2; 
+  top: 500px; /* Arrange buttons in a column */
+}
+
+.button-row {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+/* Button styles */
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111; /* Button background color */
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+/* Additional button styles */
+.save-time-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  text-align: right; /* Align text to the right */
+}
+
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.saved-times {
+  flex-grow: 1;
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+.saved-times ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-times ul li {
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+
+.saved-times {
+  margin-left: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto; /* Move to the right side */
+  margin-right: auto; /* Move to the left side */
+  width: 80%;/* Adjust margin as needed */
+}
+
+.saved-times h2 {
+  font-size: 18px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.saved-times ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-times ul li {
+  font-size: 25px; /* Adjust font size as needed */
+  margin-bottom: 5px; /* Adjust margin as needed */
+}
+.container {
+  display: flex;
+}
+
+.content {
+  width: 90%;
+}
+
+.saved-times {
+  width: 10%;
+}
+.nama{
+  text-align: left;
+  width: 100%;
+}
